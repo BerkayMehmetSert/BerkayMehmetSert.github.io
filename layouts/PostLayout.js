@@ -5,16 +5,12 @@ import { BlogSEO } from '@/components/SEO'
 import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
-import Comments from '@/components/comments'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
-
-const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
-const discussUrl = (slug) => `https://github.com/search?q=${encodeURIComponent(`${slug}`)}`
 
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
-  const { slug, fileName, date, title, images, tags } = frontMatter
+  const { slug, date, title, images, tags } = frontMatter
 
   return (
     <SectionContainer>
@@ -67,10 +63,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                         <dd className="text-[#001018] dark:text-[#F7F8F9]">{author.name}</dd>
                         <dd>
                           {author.github && (
-                            <Link
-                              href={author.github}
-                              className="text-[#00689D] "
-                            >
+                            <Link href={author.github} className="text-[#00689D] ">
                               {author.github.replace('https://github.com/', '@')}
                             </Link>
                           )}

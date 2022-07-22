@@ -24,7 +24,8 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
             {title}
           </h1>
           <p className="text-lg leading-7 text-[#344450] dark:text-gray-400">
-            I write mostly about web development, tech related, and sometime about my personal life. Use the search below to filter by title.
+            I write mostly about web development, tech related, and sometime about my personal life.
+            Use the search below to filter by title.
           </p>
           <div className="relative max-w-lg">
             <input

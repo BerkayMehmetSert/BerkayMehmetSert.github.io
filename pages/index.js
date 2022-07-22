@@ -26,7 +26,8 @@ export default function Home({ posts }) {
           </h1>
           <p className="text-lg leading-7 text-[#344450] dark:text-gray-400">
             {/*{siteMetadata.description}*/}
-            I am a web developer and UI/UX designer. I love code, design, and illustrations.<br/>
+            I am a web developer and UI/UX designer. I love code, design, and illustrations.
+            <br />
             Programmer by profession, developer for passion.
             <div className="mt-2 text-base font-medium leading-6">
               <Link
@@ -41,9 +42,7 @@ export default function Home({ posts }) {
         <h2 className=" mt-4 text-2xl font-bold leading-9 tracking-tight text-[#001018] dark:text-[#F7F8F9] sm:text-3xl sm:leading-10 md:text-4xl md:leading-14">
           Latest blog posts
         </h2>
-        <p className="text-lg leading-7 text-[#344450] dark:text-gray-400">
-          Happy reading✌️ <i className="inline-block twa twa-lg twa-clinking-beer-mugs"/>
-        </p>
+        <p className="text-lg leading-7 text-[#344450] dark:text-gray-400">Happy reading✌️</p>
         <ul className="divide-y divide-[#D9DDE1] dark:divide-[#344450]">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
