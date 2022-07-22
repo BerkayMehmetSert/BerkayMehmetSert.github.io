@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.task-list-item::before {
+    @apply hidden;
+}
+
+.prose a {
+    color: #6366f1 ;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.prose :where(strong):not(:where([class~="not-prose"] *)){
+color: #001018;
+}
+.prose :where(p):not(:where([class~="not-prose"] *)){
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+.prose :where(p > a):not(:where([class~="not-prose"] *)){
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+.prose :where(ul > li):not(:where([class~="not-prose"] *)){
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+.prose :where(h3):not(:where([class~="not-prose"] *)) {
+    color: #171717;
+    font-weight: 600;
+    font-size: 21px;
+    margin-top: 1.6em;
+    margin-bottom: 0.6em;
+    line-height: 1.6;
+}
+.prose :where(h2):not(:where([class~="not-prose"] *)) {
+    font-size: 30px;
+}
+
+.prose code {
+    color: #7EBEE0;
+    font-weight: 600;
+
+}
+
+.task-list-item {
+    @apply list-none;
+}
+
+.footnotes {
+    @apply pt-8 mt-12 border-t border-gray-200 dark:border-gray-700;
+}
+
+.csl-entry {
+    @apply my-5;
+}
+
+/* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
