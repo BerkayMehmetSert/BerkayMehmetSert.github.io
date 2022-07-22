@@ -1,4 +1,4 @@
-# My 🏠 on the ☁️
+# My home on the ☁️
 
 ## Motivation
 
