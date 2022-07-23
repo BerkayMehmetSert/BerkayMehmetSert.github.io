@@ -7,10 +7,12 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
+const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
+
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
-  const { slug, date, title, images, tags } = frontMatter
+  const { slug, fileName, date, title, images, tags } = frontMatter
 
   return (
     <SectionContainer>
@@ -77,6 +79,10 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             <div className="divide-y divide-[#D9DDE1] dark:divide-[#344450] xl:col-span-3 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
               {/*<Comments frontMatter={frontMatter} />*/}
+              <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
+                {` • `}
+                <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
+              </div>
             </div>
             <footer>
               <div className="divide-[#D9DDE1] text-sm font-medium leading-5 dark:divide-[#344450]  xl:col-start-1 xl:row-start-2 xl:divide-y">
