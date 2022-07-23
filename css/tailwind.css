@@ -46,10 +46,9 @@ color: #001018;
     font-size: 30px;
 }
 
-.prose code {
-    color: #7EBEE0;
-    font-weight: 600;
-
+.prose.prose :not(pre)>code:not([class*=language]){
+    color: #001018;
+    background-color: #D9DDE1;
 }
 
 .task-list-item {
