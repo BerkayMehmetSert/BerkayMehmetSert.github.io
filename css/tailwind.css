@@ -12,7 +12,13 @@
     text-decoration: underline;
     text-underline-offset: 2px;
 }
-
+.prose td{
+    font-size: 18px;
+}
+.prose th {
+    font-size: 18px;
+    font-weight: 600;
+}
 .prose :where(strong):not(:where([class~="not-prose"] *)){
 color: #001018;
 }
