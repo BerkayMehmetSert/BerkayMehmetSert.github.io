@@ -6,8 +6,6 @@ draft: false
 summary: 'The CSS property aspect-ratio lets you create boxes that maintain proportional dimensions where the height and width of a box are calculated automatically as a ratio. It’s a little math-y, but the idea is that you can divide one value by another on this property and the calculated value ensures a box stays in that proportion.'
 ---
 
-# Aspect ratio code snippets
-
 ![aspect-ratio](/static/images/posts/aspect-ratio.jpg)
 
 `aspect-ratio` is a custom property that can be used to define the aspect ratio of an element. It can be used on any element, but it’s most commonly used on images. It’s a CSS custom property that takes a ratio of two numbers, separated by a slash. The first number is the width, the second is the height. The ratio is calculated as the width divided by the height.
