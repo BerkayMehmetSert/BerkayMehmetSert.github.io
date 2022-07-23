@@ -10,6 +10,8 @@ summary: 'The CSS property aspect-ratio lets you create boxes that maintain prop
 
 ![aspect-ratio](/static/images/posts/aspect-ratio.jpg)
 
+`aspect-ratio` is a custom property that can be used to define the aspect ratio of an element. It can be used on any element, but it’s most commonly used on images. It’s a CSS custom property that takes a ratio of two numbers, separated by a slash. The first number is the width, the second is the height. The ratio is calculated as the width divided by the height.
+
 Creates a responsive container with a specified aspect ratio.
 
 - Use a CSS custom property, `--aspect-ratio` to define the desired aspect ratio.
@@ -38,3 +40,7 @@ Creates a responsive container with a specified aspect ratio.
   object-fit: cover;
 }
 ```
+And that's what I know about aspect-ratio properties. I hope you find it useful. If you have any questions, please let me know. 
+👇
+
+Happy coding!
