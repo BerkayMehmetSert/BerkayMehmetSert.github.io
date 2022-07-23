@@ -15,7 +15,7 @@ SEO stands for “search engine optimization.” In simple terms, it means the p
 > Semantics are important because search engines use them to determine content relevance.
 
 
-### <title>
+### `<title>`
 
 The `<title>` tag is shown in search results as the clickable link.
 
@@ -33,7 +33,7 @@ The `<title>` tag is shown in search results as the clickable link.
 
 ⚠️ Also important for accessibility
 
-### <meta description>
+### `<meta description>`
 
 Used as the text under the link—or maybe the first `<p>` tag.
 
