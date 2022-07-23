@@ -7,8 +7,8 @@ const siteMetadata = {
     "Berkay's coding journey - programming, working and life stories through the keyboard of an open minded Frontend Developer.",
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://berkaymehmetsert.vercel.app/',
+  siteRepo: 'https://github.com/BerkayMehmetSert/berkaymehmetsert.vercel.app',
   siteLogo: '/static/images/profile-pic.jpg',
   image: '/static/images/profile-pic.jpg',
   socialBanner: '/static/images/profile-pic.jpg',
