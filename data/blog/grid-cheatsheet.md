@@ -1,12 +1,12 @@
 ---
-title: 'Flexbox cheat sheet'
+title: 'Grid Cheatsheet'
 date: '2022-07-25'
-tags: ['flexbox', 'css', 'cheatsheet']
+tags: ['grid', 'css', 'cheatsheet']
 draft: false
 summary: 'The grid is a layout system that allows you to display elements in a way that allows them to flow freely and take up as much space as possible. It is a way to lay out elements in a way that allows them to flow freely and take up as much space as possible.'
 ---
 
-![grid](/static/images/posts/flexbox.jpg)
+![grid](/static/images/posts/grid.jpg)
 
 ## Parents
 
