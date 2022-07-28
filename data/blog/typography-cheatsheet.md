@@ -8,7 +8,7 @@ summary: 'The web typography cheat sheet is a collection of useful typography st
 
 ![flexbox](/static/images/posts/font.jpg)
 
-Web typography useful styles that can be used to style your web pages. 
+Web typography useful styles that can be used to style your web pages.
 
 ## Metrics
 
@@ -38,7 +38,7 @@ Web typography useful styles that can be used to style your web pages.
 
 ### `rem`
 
-Based on the font-size set in the `html` element `1.5rem is 1.5x the  html` element's font-size.
+Based on the font-size set in the `html` element `1.5rem is 1.5x the html` element's font-size.
 
 ### `em`
 
@@ -58,7 +58,6 @@ A percentage of the font-size of the parent element.
 
 Allows you to change the typed size based on the height of the window.
 
-
 ### `vw`
 
 Allows you to change the typed size based on the width of the window.
@@ -75,7 +74,7 @@ CSS pixels - different size for every device.
 
 The color of the text.
 
-``` css
+```css
 color: #fff;
 ```
 
@@ -83,7 +82,7 @@ color: #fff;
 
 Change the typeface of the text.
 
-``` css
+```css
 font-family: 'Open Sans', sans-serif;
 ```
 
@@ -91,7 +90,7 @@ font-family: 'Open Sans', sans-serif;
 
 Change the size of the text.
 
-``` css
+```css
 font-size: 1.5rem;
 ```
 
@@ -99,7 +98,7 @@ font-size: 1.5rem;
 
 Change the weight of the text. (`bold`, `normal`, `400`, `700`)
 
-``` css
+```css
 font-weight: 700;
 ```
 
@@ -107,7 +106,7 @@ font-weight: 700;
 
 Change the capitalization of the text. (`italic`, `normal`)
 
-``` css
+```css
 font-style: italic;
 ```
 
@@ -115,7 +114,7 @@ font-style: italic;
 
 Adjust the space line takes up, similar to leading
 
-``` css
+```css
 line-height: 1.5;
 ```
 
@@ -123,7 +122,7 @@ line-height: 1.5;
 
 Adjust the position of the text within its parent. (`left`).
 
-``` css
+```css
 text-align: left;
 ```
 
@@ -131,7 +130,7 @@ text-align: left;
 
 Add a decoration to the text. (`underline`, `none`, `line-through`, `overline`)
 
-``` css
+```css
 text-decoration: underline;
 ```
 
@@ -139,7 +138,7 @@ text-decoration: underline;
 
 Indent the first line of text.
 
-``` css
+```css
 text-indent: 1em;
 ```
 
@@ -147,7 +146,7 @@ text-indent: 1em;
 
 Change the capitalization of the text. (`uppercase`, `lowercase`, `capitalize`)
 
-``` css
+```css
 text-transform: uppercase;
 ```
 
@@ -155,7 +154,7 @@ text-transform: uppercase;
 
 Add a shadow to the text.
 
-``` css
+```css
 text-shadow: 1px 1px 1px #000;
 ```
 
@@ -163,7 +162,7 @@ text-shadow: 1px 1px 1px #000;
 
 Determine what happens to the text if it's too wide for its box.
 
-``` css
+```css
 text-overflow: ellipsis;
 ```
 
@@ -171,7 +170,7 @@ text-overflow: ellipsis;
 
 Control the style of bullets on a list. (`none`, `disc`, `circle`, `square`, `decimal`, `lower-roman`, `upper-roman`, `lower-alpha`, `upper-alpha`, `lower-greek`, `lower-latin`, `upper-latin`, `armenian`, `georgian`, `cjk-ideographic`, `hebrew`, `katakana`, `hiragana`, `none`)
 
-``` css
+```css
 list-style: none;
 ```
 
@@ -179,7 +178,7 @@ list-style: none;
 
 Shorthand property for specifying lots of font details.
 
-``` css
+```css
 font: 1.5rem/1.5 'Open Sans', sans-serif;
 ```
 
@@ -187,7 +186,7 @@ font: 1.5rem/1.5 'Open Sans', sans-serif;
 
 Controls the space between the different letters.
 
-``` css
+```css
 letter-spacing: 1px;
 ```
 
@@ -195,7 +194,7 @@ letter-spacing: 1px;
 
 Controls the space between the different words.
 
-``` css
+```css
 word-spacing: 1px;
 ```
 
@@ -203,7 +202,7 @@ word-spacing: 1px;
 
 Controls how the text wraps. (`normal`, `nowrap`, `pre`)
 
-``` css
+```css
 white-space: nowrap;
 ```
 
@@ -211,7 +210,7 @@ white-space: nowrap;
 
 Controls whether the browser is allowed to break really long words. (`normal`, `break-word`)
 
-``` css
+```css
 word-wrap: break-word;
 ```
 
@@ -223,7 +222,7 @@ For making text flow between a few columns.
 
 Set to the number of columns wanted in the text block.
 
-``` css
+```css
 column-count: 2;
 ```
 
@@ -231,7 +230,7 @@ column-count: 2;
 
 Set the amount of space between the columns.
 
-``` css
+```css
 column-gap: 1rem;
 ```
 
@@ -239,7 +238,7 @@ column-gap: 1rem;
 
 Create a vertical border between each column.
 
-``` css
+```css
 column-rule: 1px solid #000;
 ```
 
@@ -253,7 +252,7 @@ Control if the text will be hyphenated.
 
 Usually requires `text-align: justify`, `none`, `auto`.
 
-``` css
+```css
 hyphens: auto;
 ```
 
@@ -263,16 +262,17 @@ Control a font’s built-in kerning metrics.
 
 `none`, `normal`, `auto`
 
-``` css
+```css
 font-kerning: normal;
 ```
 
 ### `font-variant-ligatures`
+
 Control whether ligatures are used or not.
 
 `none`,`normal`, `common-ligatures`, `contextual`
 
-``` css
+```css
 font-variant-ligatures: normal;
 ```
 
@@ -282,20 +282,27 @@ Enable/disabled alternative glyphs for numbers & fractions.
 
 `normal`, `ordinal`, `slashed-zero`, `oldstyle-nums`, `tabular-nums`
 
-``` css
+```css
 font-variant-numeric: normal;
 ```
 
 ### `font-variant-caps`
+
 Control whether small caps are used or not.
 `normal`, `small-caps`
 
-``` css
+```css
 font-variant-caps: small-caps;
 ```
 
 ### `text-rendering`
+
 Controls a bunch of the `font-variant` properties automatically.
-``` css
+
+```css
 text-rendering: optimizeLegibility;
 ```
+
+And that's what I know about web typography. I hope you find it useful. If you have any questions, please let me know. 👇
+
+Happy coding!
