@@ -73,11 +73,11 @@ export default function SnippetsLayout({ posts, title, initialDisplayPosts = [],
                           {title}
                         </Link>
                       </h3>
-                      {/*<div className="flex flex-wrap">*/}
-                      {/*  {tags.map((tag) => (*/}
-                      {/*    <Tag key={tag} text={tag} />*/}
-                      {/*  ))}*/}
-                      {/*</div>*/}
+                      <div className="flex flex-wrap">
+                        {tags.map((tag) => (
+                          <Tag key={tag} text={tag} />
+                        ))}
+                      </div>
                     </div>
                     <div className="prose max-w-none text-[#344450] dark:text-gray-400">
                       {summary}
