@@ -24,7 +24,7 @@ export default function SnippetsLayout({ posts, title, initialDisplayPosts = [],
             {title}
           </h1>
           <p className="text-lg leading-7 text-[#344450] dark:text-gray-400">
-            Snippets page header text.
+            Reusable code snippets collected by me.
           </p>
           <div className="relative max-w-lg">
             <input
