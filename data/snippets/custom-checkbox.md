@@ -1,6 +1,6 @@
 ---
 title: 'Custom checkbox'
-date: '2022-07-24'
+date: '2022-07-28'
 tags: ['checkbox', 'snippets', 'css']
 draft: false
 summary: 'Creates a styled checkbox with animation on state change. '
@@ -152,7 +152,7 @@ Creates a styled checkbox with animation on state change.
 }
 ```
 
-[View Codepen](https://codepen.io/joshuacox/pen/XjbqjX)
+[View Codepen](https://codepen.io/berkaymehmetsert/pen/BarmQzz)
 
 And that's what I know about checkbox. I hope you find it useful. If you have any questions, please let me know. 👇
 
