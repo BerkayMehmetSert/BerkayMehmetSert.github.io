@@ -1,6 +1,6 @@
 import Link from '@/components/Link'
 
-export default function Pagination({ totalPages, currentPage, page }) {
+export default function SnippetsPagination({ totalPages, currentPage }) {
   const prevPage = parseInt(currentPage) - 1 > 0
   const nextPage = parseInt(currentPage) + 1 <= parseInt(totalPages)
 
@@ -13,7 +13,7 @@ export default function Pagination({ totalPages, currentPage, page }) {
           </button>
         )}
         {prevPage && (
-          <Link href={currentPage - 1 === 1 ? `/${page}/` : `/${page}/page/${currentPage - 1}`}>
+          <Link href={currentPage - 1 === 1 ? `/snippets/` : `/snippets/page/${currentPage - 1}`}>
             <button rel="previous">Previous</button>
           </Link>
         )}
@@ -26,7 +26,7 @@ export default function Pagination({ totalPages, currentPage, page }) {
           </button>
         )}
         {nextPage && (
-          <Link href={`/${page}/page/${currentPage + 1}`}>
+          <Link href={`/snippets/page/${currentPage + 1}`}>
             <button rel="next">Next</button>
           </Link>
         )}

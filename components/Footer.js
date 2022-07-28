@@ -21,6 +21,8 @@ export default function Footer() {
           <div>{` • `}</div>
           <Link href="/blog">Blog</Link>
           <div>{` • `}</div>
+          <Link href="/snippets">Snippets</Link>
+          <div>{` • `}</div>
           <Link href="/projects">Projects</Link>
           <div>{` • `}</div>
           <Link href="/about">About</Link>

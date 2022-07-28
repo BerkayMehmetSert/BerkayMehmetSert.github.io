@@ -6,6 +6,7 @@ import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import Comments from '@/components/comments'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
 
@@ -78,7 +79,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </dl>
             <div className="divide-y divide-[#D9DDE1] dark:divide-[#344450] xl:col-span-3 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
-              {/*<Comments frontMatter={frontMatter} />*/}
+              <Comments frontMatter={frontMatter} />
               <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
                 {` • `}
                 <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>

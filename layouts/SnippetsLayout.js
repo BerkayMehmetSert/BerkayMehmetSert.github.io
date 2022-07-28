@@ -5,7 +5,7 @@ import { useState } from 'react'
 import Pagination from '@/components/Pagination'
 import formatDate from '@/lib/utils/formatDate'
 
-export default function ListLayout({ posts, title, initialDisplayPosts = [], pagination }) {
+export default function SnippetsLayout({ posts, title, initialDisplayPosts = [], pagination }) {
   const [searchValue, setSearchValue] = useState('')
   const filteredBlogPosts = posts.filter((frontMatter) => {
     const searchContent = frontMatter.title + frontMatter.summary + frontMatter.tags.join(' ')
@@ -24,8 +24,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
             {title}
           </h1>
           <p className="text-lg leading-7 text-[#344450] dark:text-gray-400">
-            I write mostly about web development, tech related, and sometime about my personal life.
-            Use the search below to filter by title.
+            Snippets page header text.
           </p>
           <div className="relative max-w-lg">
             <input
@@ -67,7 +66,10 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                   <div className="space-y-3 xl:col-span-3">
                     <div>
                       <h3 className="text-2xl font-bold leading-8 tracking-tight">
-                        <Link href={`/blog/${slug}`} className="text-[#001018] dark:text-[#EFF1F3]">
+                        <Link
+                          href={`/snippets/${slug}`}
+                          className="text-[#001018] dark:text-[#EFF1F3]"
+                        >
                           {title}
                         </Link>
                       </h3>
@@ -91,7 +93,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
         <Pagination
           currentPage={pagination.currentPage}
           totalPages={pagination.totalPages}
-          page={'blog'}
+          page={'snippets'}
         />
       )}
     </>
