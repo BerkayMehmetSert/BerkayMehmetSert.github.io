@@ -239,3 +239,8 @@ Usually paired with the `hidden` attribute.
 ```html
 <div aria-hidden="true" hidden>⋮</div>
 ```
+
+And that's what I know about accessibility. I hope you find it useful. If you have any questions, please let me know.
+👇
+
+Happy coding!
