@@ -1,6 +1,6 @@
 ---
 title: 'Screen Sizes Cheat Sheets'
-date: '2022-07-29'
+date: '2022-07-30'
 tags: ['screen', 'size', 'cheatsheet']
 draft: false
 summary: 'The Screen Sizes Cheat Sheet is a collection of screen size related information that can be used to help you design your website for different screen sizes. It is a good starting point for your website design.'
