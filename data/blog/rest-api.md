@@ -54,8 +54,6 @@ GET /api/customers/1 — This will return the customer details with id:1
 
 PUT /api/customers/1
 
-{ name: ‘’ }
-
 We should also include the customer ID and also customer object in the body of the request to get it updated.
 
 **DELETE —**
