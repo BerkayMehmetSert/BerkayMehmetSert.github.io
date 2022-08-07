@@ -66,8 +66,6 @@ To delete a customer.
 
 POST /api/customers
 
-{ name: ‘’ }
-
 We will be able to add a new customer, we have to include the customer object in the body of the request to create a new customer.
 
 **Note —**
