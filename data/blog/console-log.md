@@ -1,6 +1,6 @@
 ---
 title: 'Accessibility'
-date: '2022-07-29'
+date: '2022-08-14'
 tags: ['accessibility', 'html']
 draft: false
 summary: 'The accessibility of a website is the ability of a user to navigate the website without having to use a mouse or keyboard. This is a very important part of the web development process, and it is important to make sure that your website is accessible to all users.'
