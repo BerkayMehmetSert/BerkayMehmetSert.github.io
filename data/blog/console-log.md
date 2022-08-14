@@ -3,7 +3,7 @@ title: 'Accessibility'
 date: '2022-08-14'
 tags: ['javascript']
 draft: false
-summary: 'The accessibility of a website is the ability of a user to navigate the website without having to use a mouse or keyboard. This is a very important part of the web development process, and it is important to make sure that your website is accessible to all users.'
+summary: 'Now, think that you are writing some JS code and it doesn't work correctly. What's the first thing you do? You are console.log it! So I'm going to tell you some alternatives for console.log.'
 ---
 
 ![console.log](/static/images/posts/console-log.jpg)
