@@ -3,7 +3,7 @@ title: 'Accessibility'
 date: '2022-08-14'
 tags: ['javascript']
 draft: false
-summary: 'Now, think that you are writing some JS code and it doesn't work correctly. What's the first thing you do? You are console.log it! So I'm going to tell you some alternatives for console.log.'
+summary: 'Now, think that you are writing some JS code and it doesn't work correctly. What's the first thing you do? You are console.log it! So I'm going to tell you some alternatives.'
 ---
 
 ![console.log](/static/images/posts/console-log.jpg)
