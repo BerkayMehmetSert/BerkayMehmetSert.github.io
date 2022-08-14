@@ -1,5 +1,5 @@
 ---
-title: 'Accessibility'
+title: 'Console.log'
 date: '2022-08-14'
 tags: ['javascript']
 draft: false
