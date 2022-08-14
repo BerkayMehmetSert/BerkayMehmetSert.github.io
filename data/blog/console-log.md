@@ -1,5 +1,5 @@
 ---
-title: 'console.log alternatives you didn't know
+title: 'console.log alternatives you didn't know'
 date: '2022-08-14' 
 tags: ['console.log', 'javascript',]
 draft: false
