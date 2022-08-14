@@ -1,7 +1,7 @@
 ---
 title: 'Console.log alternatives you didn't know'
 date: '2022-08-14' 
-tags: ['console.log', 'javascript']
+tags: ['consolelog', 'javascript']
 draft: false
 summary: 'Now, think that you are writing some JS code and it doesn't work correctly. What's the first thing you do? You are console.log it! So I'm going to tell you some alternatives for console.log.'
 ---
